@@ -17,5 +17,5 @@ elif ball >= 60 and ball <= 69:
 elif ball >= 0 and ball <= 59:
     print("Rad")
 
-elif ball > 100 or ball < 0:
+else:
     print("Ball 0-100 oralig'ida bo'lishi kerak!")

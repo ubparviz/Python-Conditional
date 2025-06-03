@@ -14,5 +14,5 @@ elif distance > 5 and distance < 50:
 elif distance >= 50:
     print("Poyezd yoki samolyot")
 
-if distance < 0:
+elif distance < 0:
     print("Masofa manfiy bo'la olmaydi!")

@@ -3,7 +3,6 @@
 import sys
 
 
-
 height = float(input("Bo'yingizni kiriting (metrda): "))
 
 if height <= 0:
@@ -14,7 +13,6 @@ elif height < 0.5 or height > 3:
     print("Bo'y 0.5-3.0 m oralig'ida bo'lishi kerak")
     sys.exit()
 
-
 weight = float(input("Vazningizni kiriting (kgda): "))
 
 if weight <= 0:
@@ -24,8 +22,6 @@ if weight <= 0:
 elif weight < 1 or weight > 500:
     print("Vazn 1-500 kg oralig'ida bo'lishi kerak")
     sys.exit()
-
-
 
 
 BMI = weight / pow(height, 2)
@@ -53,7 +49,6 @@ elif BMI >= 35 and BMI <= 39:
 
 elif BMI >= 40:
     print("III darajali (juda og'ir) semizlik!")
-
 
 
 print(BMI)

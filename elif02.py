@@ -24,5 +24,5 @@ elif operators == "*":
     result = a*b
     print(result)
 
-elif operators != "*" or "+" or "-" or "/":
+else:
     print("Noto'g'ri amal. Faqat +, -, *, / ishlatiladi.")
